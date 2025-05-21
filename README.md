@@ -1,25 +1,38 @@
-# Free eCommerce Template for Next.js - NextMerce
+# Next.js E-commerce Template
 
-The free Next.js eCommerce template is a lite version of the NextMerce Next.js eCommerce boilerplate, designed to streamline the launch and management of your online store.
+## Project Overview
+This is a Next.js-based e-commerce template designed for fast development and customization.
 
-![NextMerce](https://github.com/user-attachments/assets/57155689-a756-4222-8af7-134e556acae2)
+---
+
+## Local Development Setup
+
+### 1. Clone the Repository
+Clone the project to your local machine:
+```bash
+git clone <repository-url>
+cd nextjs-ecommerce-template
+```
+
+### 2. Install Dependencies
+```bash
+pnpm install
+```
+
+### 3. Create credential
+```bash
+touch credential.js
+```
+The `credential.js` file is like
+```bash
+export const token = <your ebay token>
+```
+
+### 4. Run
+go to http://localhost:3000/shop-with-sidebar
+```bash
+next dev
+```
 
 
-While NextMerce Pro features advanced functionalities, seamless integration, and customizable options, providing all the essential tools needed to build and expand your business, the lite version offers a basic Next.js template specifically crafted for eCommerce websites. Both versions ensure superior performance and flexibility, all powered by Next.js.
 
-### NextMerce Free VS NextMerce Pro
-
-| ✨ Features                         | 🎁 NextMerce Free                 | 🔥 NextMerce Pro                        |
-|----------------------------------|--------------------------------|--------------------------------------|
-| Next.js Pages                    | Static                         | Dynamic Boilerplate Template         |
-| Components                       | Limited                        | All According to Demo                |
-| eCommerce Functionality          | Included                       | Included                             |
-| Integrations (DB, Auth, etc.)    | Not Included                   | Included                             |
-| Community Support                | Included                       | Included                             |
-| Premium Email Support            | Not Included                   | Included                             |
-| Lifetime Free Updates            | Included                       | Included                             |
-
-
-#### [🚀 Live Demo](https://demo.nextmerce.com/)
-
-#### [🌐 Visit Website](https://nextmerce.com/)
